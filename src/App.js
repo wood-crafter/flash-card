@@ -1,10 +1,10 @@
 import './App.css';
+import { Login } from '../src/views'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Login></Login>
     </div>
   );
 }
