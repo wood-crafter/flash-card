@@ -84,3 +84,11 @@
   justify-content: center;
   align-items: center;
 }
+
+.signin {
+  width: 70%;
+  height: 1.75rem;
+  border: 0;
+  background-color: #86efac;
+  border-radius: 1.5rem;
+}
