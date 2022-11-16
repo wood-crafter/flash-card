@@ -7,8 +7,8 @@ export const Login = (props) => {
         <div className='form-head'>Sign in</div>
         <div className='form-content'>
           <div className='input-container'>
-            <input className='username'></input>
-            <input className='password'></input>
+            <input className='username input' placeholder='Username'></input>
+            <input className='password input' placeholder='Password'></input>
           </div>
 
           <div className='forgot-account-container'>
