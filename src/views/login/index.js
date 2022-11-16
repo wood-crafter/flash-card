@@ -4,8 +4,26 @@ export const Login = (props) => {
   return (
     <div className='login-container'>
       <div className='login-form' >
-        <div className='form-head'></div>
-        <div className='form-content'></div>
+        <div className='form-head'>Sign in</div>
+        <div className='form-content'>
+          <div className='input-container'>
+            <input className='username'></input>
+            <input className='password'></input>
+          </div>
+
+          <div className='forgot-account-container'>
+            <a className='forgot-account'>Forgot Username/Password?</a>
+          </div>
+
+          <div className='signin-container'>
+            <button className='signin'>SIGN IN</button>
+          </div>
+
+          <div className='signup-container'>
+            <div className='signup-title'>Don't have account?</div>
+            <a className='signup'>SIGN UP NOW</a>
+          </div>
+        </div>
       </div>
     </div>
   )
