@@ -91,4 +91,13 @@
   border: 0;
   background-color: #86efac;
   border-radius: 1.5rem;
+  color: #ffffff;
+}
+
+.forgot-account {
+  color: #6dc98f;
+}
+
+.signup {
+  color: #6dc98f;
 }
