@@ -99,10 +99,22 @@
   color: #ffffff;
 }
 
+.signin:hover {
+  cursor: pointer;
+}
+
 .forgot-account {
   color: #6dc98f;
 }
 
+.forgot-account:hover {
+  cursor: pointer;
+}
+
 .signup {
   color: #6dc98f;
+}
+
+.signup:hover {
+  cursor: pointer;
 }
