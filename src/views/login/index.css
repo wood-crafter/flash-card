@@ -40,3 +40,82 @@
   justify-content: center;
   align-items: center;
 }
+
+.input-container {
+  flex: 1.5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  border-radius: 1.5rem;
+  height: 1.75rem;
+  width: 70%;
+  border: 0;
+  background-color: #ebebeb;
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  outline: none;
+  border: 0.1rem solid #86efac;
+}
+
+.forgot-account-container {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.signin-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.signup-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin {
+  width: 70%;
+  height: 1.75rem;
+  border: 0;
+  background-color: #86efac;
+  border-radius: 1.5rem;
+  color: #ffffff;
+}
+
+.signin:hover {
+  cursor: pointer;
+}
+
+.forgot-account {
+  color: #6dc98f;
+}
+
+.forgot-account:hover {
+  cursor: pointer;
+}
+
+.signup {
+  color: #6dc98f;
+}
+
+.signup:hover {
+  cursor: pointer;
+}
